@@ -7,14 +7,16 @@
   </head>
   <body>
 
-    <!-- <div class="container"> -->
+    <!-- start navbar -->
     <div class="columns is-mobile is-desktop navbar">
-      <div class="column is-12-mobile is-6-desktop is-offset-4-desktop frame">
+      <div class="column is-12-mobile is-6-desktop is-offset-3-desktop frame">
         <div class="columns is-mobile is-desktop">
           <div class="column is-5">
-            <span class="icon has-text-warning">
-              <i class="fas fa-arrow-left"></i>
-            </span>
+            <a href="#">
+              <span class="icon has-text-warning">
+                <i class="fas fa-arrow-left"></i>
+              </span>
+            </a>
           </div>
           <div class="column is-5 judul">
             <span>
@@ -24,8 +26,12 @@
         </div>
       </div>
     </div>
-    <div class="columns" >
-      <div class="column is-12-mobile is-6-desktop is-offset-4-desktop">
+    <!-- end navbar -->
+
+    <!-- start content -->
+    <div class="columns is-mobile is-desktop" >
+      <div class="column is-12-mobile is-6-desktop is-offset-3-desktop">
+        <!-- start information total payment -->
         <div class="columns">
           <div class="column">
             <div class="card">
@@ -38,8 +44,10 @@
             </div>
           </div>
         </div>
-        <div class="columns is-mobile is-desktop">
-          <div class="column is-1 banking">
+        <!-- end information total payment -->
+        <!-- start information use method payment -->
+        <div class="columns">
+          <div class="column is-1 list">
             <span class="circle">1</span>
           </div>
           <div class="column">
@@ -49,9 +57,64 @@
             </span>
           </div>
         </div>
+        <!-- end information use method payment -->
+        <!-- start information detail account bank -->
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="columns">
+                  <div class="column is-1">
+                    Logo
+                  </div>
+                  <div class="column">
+                    <span>BCA</span> <br>
+                    <span>No. Rekening: 084-5063112</span> <br>
+                    <span>Cabang: Wisma Asia</span> <br>
+                    <span>Nama Rekening: PT airPay International Indonesia</span>
+                  </div>
+                  <div class="column" align="right">
+                    salin
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end information detail account bank -->
+        <div class="columns">
+          <div class="column list">
+            *Pembayaran OrderLink didukung oleh PT airPay International Indonesia
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-1 list">
+            <span class="circle">2</span>
+          </div>
+          <div class="column">
+            <span>
+              Silahkan upload bukti transfer sebelum 28-08-2018
+            </span>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <button stype="submit" class="button is-fullwidth bg-orange">
+              Upload bukti transfer sekarang
+            </button>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <button stype="submit" class="button is-fullwidth br-orange">
+              Upload bukti transfer nanti
+            </button>
+          </div>
+        </div>
+
       </div>
     </div>
-    <!-- </div> -->
+    <!-- end content -->
 
     <script src="public/app.js"></script>
   </body>

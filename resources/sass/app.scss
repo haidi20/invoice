@@ -3,6 +3,7 @@
 
 /* variable */
 $gray : #EFEFEF;
+$orange : #FF5721;
 
 body, html{
   background-color:$gray;
@@ -17,6 +18,11 @@ body, html{
   transform: translateY(15%);
   .icon{
     padding-left:2.5em;
+    .fas.fa-arrow-left{
+      font-size:2em;
+      margin-top:40px;
+      color:$orange;
+    }
   }
   .judul{
     padding-top:2em;
@@ -26,22 +32,15 @@ body, html{
 }
 // end header
 
-// start information sum paying
+// start information total payment
 .card{
   border:0px;
   margin:0px;
 }
-.icon{
-  .fas.fa-arrow-left{
-    font-size:2em;
-    margin-top:40px;
-    color:#FF5721;
-  }
-}
-// end information sum paying
+// end information total payment
 
-// start banking
-.banking{
+// start list
+.list{
   padding-left:2em;
   .circle{
     background-color: #C7C6C3;
@@ -50,4 +49,14 @@ body, html{
     color:white;
   }
 }
-// end banking
+// end list
+
+.bg-orange{
+  background-color:$orange;
+  color:white;
+  border-radius:5px;
+}
+.br-orange{
+  border:2px solid $orange;
+  color:$orange;
+}

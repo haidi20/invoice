@@ -14,9 +14,7 @@ let mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public')
    .sass('resources/sass/app.scss', 'public')
    .setPublicPath('public')
-   .browserSync({
-        proxy: 'invoice.dev'
-    });
+   .browserSync('invoice.dev');
 
 // Full API
 // mix.js(src, output);

@@ -1,1 +1,5 @@
-console.log('muncul');
+const $ = require('jquery');
+
+$(document).ready(function(){
+  // $('#content').load("components/infoPembayaran.html");
+});
