@@ -26,6 +26,7 @@ body, html{
 }
 // end header
 
+// start information sum paying
 .card{
   border:0px;
   margin:0px;
@@ -37,3 +38,16 @@ body, html{
     color:#FF5721;
   }
 }
+// end information sum paying
+
+// start banking
+.banking{
+  padding-left:2em;
+  .circle{
+    background-color: #C7C6C3;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
+    color:white;
+  }
+}
+// end banking
