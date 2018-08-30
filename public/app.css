@@ -10861,7 +10861,7 @@ html {
   color: white;
 }
 
-.bg-orange {
+.is-orange {
   background-color: #FF5721;
   color: white;
   border-radius: 5px;
@@ -10870,5 +10870,26 @@ html {
 .br-orange {
   border: 2px solid #FF5721;
   color: #FF5721;
+}
+
+.pr-2 {
+  padding-right: 2em;
+}
+
+.pl-1 {
+  padding-left: 1em;
+}
+
+.has-background-primary {
+  background-color: #00BEA2;
+  color: white;
+}
+
+.has-text-orange {
+  color: #FF5721;
+}
+
+.image-browser {
+  margin-top: 2em;
 }
 
