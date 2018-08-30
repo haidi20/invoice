@@ -33,11 +33,26 @@ body, html{
 // end header
 
 // start information total payment
-.card{
-  border:0px;
-  margin:0px;
+.total-payment{
+  font-weight:bold;
+}
+.nominal{
+  color:$orange;
+  font-size:2em;
 }
 // end information total payment
+
+// start information bank
+.bca-word{
+  font-weight:bold;
+}
+.copy-word-space{
+  padding-top:3em;
+  .copy-word{
+    cursor:pointer;
+  }
+}
+//end information bank
 
 // start list
 .list{

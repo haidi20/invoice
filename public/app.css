@@ -10829,9 +10829,25 @@ html {
   font-weight: bold;
 }
 
-.card {
-  border: 0px;
-  margin: 0px;
+.total-payment {
+  font-weight: bold;
+}
+
+.nominal {
+  color: #FF5721;
+  font-size: 2em;
+}
+
+.bca-word {
+  font-weight: bold;
+}
+
+.copy-word-space {
+  padding-top: 3em;
+}
+
+.copy-word-space .copy-word {
+  cursor: pointer;
 }
 
 .list {
