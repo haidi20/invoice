@@ -4,6 +4,7 @@
 /* variable */
 $gray : #EFEFEF;
 $orange : #FF5721;
+$primary : #00BEA2;
 
 body, html{
   background-color:$gray;
@@ -12,4 +13,4 @@ body, html{
 }
 
 @import "info-payment";
-@import "product";
+@import "not-yet-payment";
