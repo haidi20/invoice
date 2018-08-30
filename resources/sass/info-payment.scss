@@ -1,0 +1,65 @@
+
+// start header
+.navbar{
+  background-color:$gray;
+  border-bottom:0.01em solid #D9D9D9;
+  transform: translateY(15%);
+  .icon{
+    padding-left:2.5em;
+    .fas.fa-arrow-left{
+      font-size:2em;
+      margin-top:40px;
+      color:$orange;
+    }
+  }
+  .judul{
+    padding-top:2em;
+    align:left;
+    font-weight:bold;
+  }
+}
+// end header
+
+// start information total payment
+.total-payment{
+  font-weight:bold;
+}
+.nominal{
+  color:$orange;
+  font-size:2em;
+}
+// end information total payment
+
+// start information bank
+.bca-word{
+  font-weight:bold;
+}
+.copy-word-space{
+  padding-top:3em;
+  .copy-word{
+    cursor:pointer;
+  }
+}
+//end information bank
+
+// start list
+.list{
+  padding-left:2em;
+  .circle{
+    background-color: #C7C6C3;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
+    color:white;
+  }
+}
+// end list
+
+.bg-orange{
+  background-color:$orange;
+  color:white;
+  border-radius:5px;
+}
+.br-orange{
+  border:2px solid $orange;
+  color:$orange;
+}
