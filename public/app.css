@@ -10893,3 +10893,14 @@ html {
   margin-top: 2em;
 }
 
+.is-red {
+  border: 1px solid red;
+  color: red;
+  padding: 0px 1px 0px 1px;
+}
+
+.line-bank {
+  margin: 9px;
+  height: 3px;
+}
+
