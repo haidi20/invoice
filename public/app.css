@@ -10860,9 +10860,10 @@ html {
 
 .list .circle {
   background-color: #C7C6C3;
-  padding: 0px 5px 3px 5px;
+  padding: 0px 7px 1px 7px;
   border-radius: 50%;
   color: white;
+  text-align: center;
 }
 
 .is-orange {
