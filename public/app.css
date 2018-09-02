@@ -10809,8 +10809,6 @@ html {
 .navbar {
   background-color: #EFEFEF;
   border-bottom: 0.01em solid #D9D9D9;
-  -webkit-transform: translateY(15%);
-          transform: translateY(15%);
 }
 
 .navbar .icon {
@@ -10829,6 +10827,11 @@ html {
   font-weight: bold;
 }
 
+.isi {
+  -webkit-transform: translateY(-1.8%);
+          transform: translateY(-1.8%);
+}
+
 .total-payment {
   font-weight: bold;
 }
@@ -10840,10 +10843,11 @@ html {
 
 .bca-word {
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .copy-word-space {
-  padding-top: 3em;
+  padding-top: 2.5em;
 }
 
 .copy-word-space .copy-word {
@@ -10856,7 +10860,7 @@ html {
 
 .list .circle {
   background-color: #C7C6C3;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px 3px 5px;
   border-radius: 50%;
   color: white;
 }
