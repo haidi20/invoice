@@ -10828,8 +10828,15 @@ html {
 }
 
 .isi {
-  -webkit-transform: translateY(-1.7%);
-          transform: translateY(-1.7%);
+  -webkit-transform: translateY(-1.3%);
+          transform: translateY(-1.3%);
+}
+
+@media (max-width: 750px) {
+  .isi {
+    -webkit-transform: translateY(-0.01%);
+            transform: translateY(-0.01%);
+  }
 }
 
 .total-payment {
@@ -10839,6 +10846,16 @@ html {
 .nominal {
   color: #FF5721;
   font-size: 2em;
+}
+
+.logo-bank {
+  padding-top: 7px;
+}
+
+@media (max-width: 750px) {
+  .logo-bank {
+    padding-top: 13px;
+  }
 }
 
 .bca-word {

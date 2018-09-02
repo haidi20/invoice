@@ -20,7 +20,10 @@
 // end header
 
 .isi{
-  transform: translateY(-1.7%);
+  transform: translateY(-1.3%);
+  @media (max-width: $sizeMobile) {
+    transform: translateY(-0.01%);
+  }
 }
 
 // start information total payment
@@ -32,7 +35,12 @@
   font-size:2em;
 }
 // end information total payment
-
+.logo-bank{
+  padding-top:7px;
+  @media (max-width:$sizeMobile){
+    padding-top:13px;
+  }
+}
 // start information bank
 .bca-word{
   font-weight:bold;
