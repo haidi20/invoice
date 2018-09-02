@@ -10828,8 +10828,8 @@ html {
 }
 
 .isi {
-  -webkit-transform: translateY(-1.8%);
-          transform: translateY(-1.8%);
+  -webkit-transform: translateY(-1.7%);
+          transform: translateY(-1.7%);
 }
 
 .total-payment {
@@ -10876,12 +10876,21 @@ html {
   color: #FF5721;
 }
 
+.isi-not-yet {
+  -webkit-transform: translateY(-0.8%);
+          transform: translateY(-0.8%);
+}
+
 .pr-2 {
   padding-right: 2em;
 }
 
 .pl-1 {
   padding-left: 1em;
+}
+
+.pr-1 {
+  padding-right: 1em;
 }
 
 .has-background-primary {
@@ -10894,7 +10903,7 @@ html {
 }
 
 .image-browser {
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 .is-red {
@@ -10906,5 +10915,14 @@ html {
 .line-bank {
   margin: 9px;
   height: 3px;
+}
+
+.taked {
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.detail-product {
+  font-size: 15px;
 }
 

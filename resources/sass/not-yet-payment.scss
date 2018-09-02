@@ -1,8 +1,14 @@
+.isi-not-yet{
+  transform: translateY(-0.8%);
+}
 .pr-2{
   padding-right:2em;
 }
 .pl-1{
   padding-left:1em;
+}
+.pr-1{
+  padding-right:1em;
 }
 .has-background-primary{
   background-color:$primary;
@@ -12,7 +18,7 @@
   color:$orange;
 }
 .image-browser{
-  margin-top:2em;
+  margin-top:0.5em;
 }
 .is-red{
   border:1px solid red;
@@ -22,4 +28,10 @@
 .line-bank{
   margin:9px;
   height:3px;
+}
+.taked{
+  transform: translateY(-40%);
+}
+.detail-product{
+  font-size:15px;
 }
