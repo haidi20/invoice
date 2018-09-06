@@ -1,18 +1,11 @@
 .navbar-original{
   padding-top:1em;
-  width:100%;
-  height: 44px;
 }
-figure.image{
-  max-width:100%;
-  max-height:100%;
-  display:block;
-  img{
-    width:100%;
-  }
+.icon-navbar{
+  font-size:1.50em;
 }
 .title-original{
-      font-family: -apple-system,
+  font-family: -apple-system,
         HelveticaNeueMedium,HelveticaNeue-Medium,
         Helvetica Neue Medium,
         Helvetica Neue,
@@ -20,6 +13,17 @@ figure.image{
         Droid Sans,
         Arial Bold,Arial,
         sans-serif;
+  font-size:1.50em;
+}
+.carousel{
+  .column{
+    padding:0px;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+
 }
 .typo-1{
   font-family:-apple-system,Helvetica Neue,Helvetica,Roboto,Droid Sans,Arial,sans-serif;
@@ -46,6 +50,16 @@ figure.image{
   font-size: 1.125rem;
   color:red;
 }
+.typo-6{
+  color:red;
+}
+.typo-7{
+  color: rgba(0,0,0,.54);
+}
+.icon-seven, .icon-ori, .icon-car{
+  width:.950rem;
+  height:.950rem;
+}
 .icon-star {
   width:0.5rem;
   color:red;
@@ -55,21 +69,32 @@ figure.image{
 }
 .pay-original{
   padding-bottom:5px;
-  .columns{
-    .column{
-      margin:0px;
-    }
-  }
 }
 
-
+hr{
+  margin:0px;
+}
 
 // for screen mobile
 @media (max-width:768px){
   .container-mobile{
     margin-left:-0.1rem;
   }
+  .title-original{
+    font-size:1.25rem;
+  }
+  .icon-navbar{
+    font-size:1.35em;
+  }
   .typo-5{
     margin-left:3px;
+  }
+  .typo-8{
+    font-weight:10px;
+    font-size:.6875rem;
+  }
+  .icon-seven{
+    width:.750rem;
+    height:.750rem;
   }
 }

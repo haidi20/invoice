@@ -10806,6 +10806,10 @@ html {
   height: 100%;
 }
 
+.background-white {
+  background-color: #fff;
+}
+
 .navbar {
   background-color: #EFEFEF;
   border-bottom: 0.01em solid #D9D9D9;
@@ -10946,22 +10950,24 @@ html {
 
 .navbar-original {
   padding-top: 1em;
-  width: 100%;
-  height: 44px;
 }
 
-figure.image {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-}
-
-figure.image img {
-  width: 100%;
+.icon-navbar {
+  font-size: 1.50em;
 }
 
 .title-original {
   font-family: -apple-system, HelveticaNeueMedium,HelveticaNeue-Medium, Helvetica Neue Medium, Helvetica Neue, Roboto, Droid Sans, Arial Bold,Arial, sans-serif;
+  font-size: 1.50em;
+}
+
+.carousel .column {
+  padding: 0px;
+}
+
+.carousel .column img {
+  width: 100%;
+  height: 100%;
 }
 
 .typo-1 {
@@ -10995,6 +11001,21 @@ figure.image img {
   color: red;
 }
 
+.typo-6 {
+  color: red;
+}
+
+.typo-7 {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.icon-seven,
+.icon-ori,
+.icon-car {
+  width: .950rem;
+  height: .950rem;
+}
+
 .icon-star {
   width: 0.5rem;
   color: red;
@@ -11008,7 +11029,7 @@ figure.image img {
   padding-bottom: 5px;
 }
 
-.pay-original .columns .column {
+hr {
   margin: 0px;
 }
 
@@ -11017,8 +11038,26 @@ figure.image img {
     margin-left: -0.1rem;
   }
 
+  .title-original {
+    font-size: 1.25rem;
+  }
+
+  .icon-navbar {
+    font-size: 1.35em;
+  }
+
   .typo-5 {
     margin-left: 3px;
+  }
+
+  .typo-8 {
+    font-weight: 10px;
+    font-size: .6875rem;
+  }
+
+  .icon-seven {
+    width: .750rem;
+    height: .750rem;
   }
 }
 

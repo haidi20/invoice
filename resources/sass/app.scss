@@ -12,6 +12,9 @@ body, html{
   weight:100%;
   height:100%;
 }
+.background-white{
+  background-color:#fff;
+}
 
 @import "info-payment";
 @import "not-yet-payment";
