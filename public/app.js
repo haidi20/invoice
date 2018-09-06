@@ -73,13 +73,10 @@ module.exports = __webpack_require__(3);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 var $ = __webpack_require__(2);
-
-$(document).ready(function () {
-  // $('#content').load("components/infoPembayaran.html");
-});
 
 /***/ }),
 /* 2 */

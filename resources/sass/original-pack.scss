@@ -1,0 +1,16 @@
+.navbar-original{
+  padding-top:1em;
+}
+
+.caption-original{
+  font-family:-apple-system,Helvetica Neue,Helvetica,Roboto,Droid Sans,Arial,sans-serif;
+  font-weight:400;
+  font-size:1rem;
+}
+
+// for screen mobile
+@media (max-width:768px){
+  .container-mobile{
+    margin-left:-0.3rem;
+  }
+}
