@@ -11025,6 +11025,10 @@ html {
   font-size: 10px;
 }
 
+.icon-next-right {
+  font-size: 1em;
+}
+
 .pay-original {
   padding-bottom: 5px;
 }
@@ -11055,7 +11059,13 @@ hr {
     font-size: .6875rem;
   }
 
-  .icon-seven {
+  .typo-9 {
+    font-size: .875rem;
+  }
+
+  .icon-seven,
+  .icon-ori,
+  .icon-car {
     width: .750rem;
     height: .750rem;
   }
