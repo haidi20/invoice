@@ -1,16 +1,75 @@
 .navbar-original{
   padding-top:1em;
+  width:100%;
+  height: 44px;
 }
-
-.caption-original{
+figure.image{
+  max-width:100%;
+  max-height:100%;
+  display:block;
+  img{
+    width:100%;
+  }
+}
+.title-original{
+      font-family: -apple-system,
+        HelveticaNeueMedium,HelveticaNeue-Medium,
+        Helvetica Neue Medium,
+        Helvetica Neue,
+        Roboto,
+        Droid Sans,
+        Arial Bold,Arial,
+        sans-serif;
+}
+.typo-1{
   font-family:-apple-system,Helvetica Neue,Helvetica,Roboto,Droid Sans,Arial,sans-serif;
   font-weight:400;
   font-size:1rem;
 }
+.typo-2{
+  background-color:$orange;
+  color:#fff;
+}
+.box-typo-3{
+  border:1px solid $orange;
+  .typo-3{
+    margin-left:5px;
+    color:$orange;
+  }
+}
+.typo-4{
+  text-decoration:line-through;
+  font-size:.875rem;
+}
+.typo-5{
+  font-weight: 500;
+  font-size: 1.125rem;
+  color:red;
+}
+.icon-star {
+  width:0.5rem;
+  color:red;
+  .fa-star{
+    font-size:10px;
+  }
+}
+.pay-original{
+  padding-bottom:5px;
+  .columns{
+    .column{
+      margin:0px;
+    }
+  }
+}
+
+
 
 // for screen mobile
 @media (max-width:768px){
   .container-mobile{
-    margin-left:-0.3rem;
+    margin-left:-0.1rem;
+  }
+  .typo-5{
+    margin-left:3px;
   }
 }
