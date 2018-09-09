@@ -56,6 +56,12 @@
 .typo-7{
   color: rgba(0,0,0,.54);
 }
+.typo-10{
+  font-size:.700rem;
+}
+.typo-11{
+  margin-left:6em;
+}
 .icon-seven, .icon-ori, .icon-car{
   width:.950rem;
   height:.950rem;
@@ -70,11 +76,25 @@
 .icon-next-right{
   font-size:1em;
 }
-.pay-original{
+.pay-original, .delivery-original{
   padding-bottom:5px;
+}
+.coin{
+  background-color:#FAFAFA;
+  border:1px 0px 1px 0px solid #D9D9D9;
 }
 hr{
   margin:0px;
+}
+.circle-original{
+  border-radius:50%;
+  border:1px solid gray;
+  padding:0px 5px 1px 4px;
+  font-size:10px;
+  text-align:center;
+}
+.button-feedback{
+  cursor:pointer;
 }
 
 // for screen mobile
@@ -97,6 +117,9 @@ hr{
   }
   .typo-9{
     font-size:.875rem;
+  }
+  .typo-11{
+    margin-left:2em;
   }
   .icon-seven, .icon-ori, .icon-car{
     width:.750rem;
